@@ -1,0 +1,14 @@
+            - nama: tambahkan-linear-penulis-sebagai-reviewer
+  # Anda dapat menyematkan komit atau versi yang tepat.
+  # penggunaan: Mergifyio/gha-add-linear-author-as-reviewer@86e4abcdf6e58a409e0187ca5bec7b778d38c7fa
+  kegunaan: Mergifyio/gha-add-linear-author-as-reviewer@1.1.1
+  dengan:
+    # Kunci Api Linier
+    LINEAR_API_KEY:
+    # Token GitHub
+    GITHUB_TOKEN:
+    # Pemetaan login Email Linear ke GitHub (satu per baris dan dipisahkan dengan spasi)
+    EMAIL_MAPPING:
+    # Regex masalah linier untuk menemukan ID masalah
+    LINEAR_ISSUE_REGEX: # opsional, defaultnya adalah MRGFY-\d+
+          
